@@ -1,0 +1,23 @@
+[user]
+	name = Maciej Prokopiuk
+	email = mcprok@gmail.com
+[color]
+	ui = auto
+[alias]
+	lol = log --format=oneline --abbrev-commit --decorate --graph --all
+	s = status --short
+	co = checkout
+	cm = commit 
+    br = branch
+[push]
+# Push current branch even if you've never pushed it before
+	default = simple
+[core]
+	autocrlf = true
+    editor = vim
+[rerere]
+    enabled = true
+[diff]
+    tool = vimdiff
+[difftool]
+    prompt = false
